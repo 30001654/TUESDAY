@@ -5,7 +5,7 @@
     class Pages extends Controller {
 
       public function __construct() {
-        $this->change_this = $this->model(''); //name your model
+        $this->change_this = $this->model('_Pages'); //name your model
       }
 
       public function index() {

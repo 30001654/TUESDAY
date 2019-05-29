@@ -1,12 +1,246 @@
-.myheader {
-    background-color: #BADA55;
-}
-
-img {
-    width: 200px;
-}
-
-h1 {
-    font-family: arial;
-    font-size: 60px;
-}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+  }
+  
+  html{
+    background-color: #EDEDED;
+  }
+  
+  #title{
+    font-size: 36px;
+    font-style: italic;
+  }
+  
+  #header{
+    display: flex;
+    align-items:center;
+    padding: 50px;
+  }
+  
+  #logo{
+    vertical-align: middle;
+    width: 400px;
+    padding-left: 150px;
+  }
+  
+  #nav{
+    height: 40px;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    overflow: hidden;
+    background-color: #D8560D;
+  }
+    
+  li {
+    float: left;
+    border-left: 1px solid #BC4705;
+    border-right: 1px solid #BC4705;
+  }
+    
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #BC4705;
+  }
+    
+  li.dropdown {
+    display: inline-block;
+    border-left: none;
+  }
+    
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+    
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .mid{
+    border-left: none;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .w3-left, .w3-right, .w3-badge {
+    cursor: pointer
+  }
+  
+  .w3-badge {
+    height:13px;
+    width:13px;
+    padding:0;
+  }
+  
+  .a{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  #para{
+    width: 500px; 
+  }
+  
+  footer{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #D8560D;
+  }
+  
+  .card-group{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  #h2{
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  
+  #p2{
+    margin-left: 100px;
+  }
+  
+  #comments{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+  
+  .comment{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #D8560D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #D8560D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #BC4705;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #EDEDED;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  #para{
+    margin-left: 200px;
+  }
+  
+  #signup{
+    margin-left: 200px;
+    background-color: #D8560D;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  #signup:hover{
+    background-color: #BC4705;
+  }
